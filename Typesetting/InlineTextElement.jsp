@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<html lang="zh-CN">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Insert title here</title>
@@ -16,7 +16,7 @@
 </head>
 <body style="padding: 20px">
 <!-- 若要在另一上下文中突出相关文本的运行，请使用<标记>标记。 -->
-	You can use the mark tag to <mark>highlight</mark> text.<br>
+<!-- You can use the mark tag to <mark>highlight</mark> text.<br> -->
 <!-- 对于被删除的文本使用 <del> 标签。 -->
 	<del>This line of text is meant to be treated as deleted text.</del><br>
 <!-- 对于没用的文本使用 <s> 标签。 -->

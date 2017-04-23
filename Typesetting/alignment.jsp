@@ -4,7 +4,7 @@
 <html lang="zh-CN">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Insert title here</title>
+	<title>对齐</title>
 	<link rel="stylesheet"
 		href="${pageContext.request.contextPath}/bootstrap3/css/bootstrap.min.css">
 	<link rel="stylesheet"
@@ -15,18 +15,16 @@
 		src="${pageContext.request.contextPath}/bootstrap3/js/bootstrap.min.js"></script>
 </head>
 <body style="padding: 20px">
-	<p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+	<p class="text-left">Left aligned text.</p>
+	<p class="text-center">Center aligned text.</p>
+	<p class="text-right">Right aligned text.</p>
+	<p class="text-justify">Justified text.</p>
+	<p class="text-nowrap">Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
 		natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-		mus. Nullam id dolor id nibh ultricies vehicula.</p>
-<!-- 		通过添加 .lead 类可以让段落突出显示。 -->
-	<p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes,
+		mus. Nullam id dolor id nibh ultricies vehicula.Cum sociis natoque penatibus et magnis dis parturient montes,
 		nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor
 		fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor
 		ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non
-		metus auctor fringilla.</p>
-	<p>Maecenas sed diam eget risus varius blandit sit amet non magna.
-		Donec id elit non mi porta gravida at eget metus. Duis mollis, est non
-		commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
-		elit.</p>
+		metus auctor fringilla.</p> <!-- 禁止单元格中的文字自动换行 -->
 </body>
 </html>

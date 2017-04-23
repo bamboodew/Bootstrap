@@ -4,7 +4,7 @@
 <html lang="zh-CN">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Insert title here</title>
+	<title>地址</title>
 	<link rel="stylesheet"
 		href="${pageContext.request.contextPath}/bootstrap3/css/bootstrap.min.css">
 	<link rel="stylesheet"
@@ -15,18 +15,16 @@
 		src="${pageContext.request.contextPath}/bootstrap3/js/bootstrap.min.js"></script>
 </head>
 <body style="padding: 20px">
-	<h1>h1. Bootstrap heading</h1>
-	<h2>h2. Bootstrap heading</h2>
-	<h3>h3. Bootstrap heading</h3>
-	<h4>h4. Bootstrap heading</h4>
-	<h5>h5. Bootstrap heading</h5>
-	<h6>h6. Bootstrap heading</h6>
-	
-	<h1>h1. Bootstrap heading <small>Secondary text</small></h1>
-	<h2>h2. Bootstrap heading <small>Secondary text</small></h2>
-	<h3>h3. Bootstrap heading <small>Secondary text</small></h3>
-	<h4>h4. Bootstrap heading <small>Secondary text</small></h4>
-	<h5>h5. Bootstrap heading <small>Secondary text</small></h5>
-	<h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+	<address>
+		<strong>Twitter, Inc.</strong><br>
+		1355 Market Street, Suite 900<br>
+		San Francisco, CA 94103<br>
+		<abbr title="Phone">P:</abbr> (123)456-7890
+	</address>
+
+	<address>
+		<strong>Full Name</strong><br>
+		<a href="mailto:#">first.last@example.com</a> <!-- 链接 -->
+	</address>
 </body>
 </html>

@@ -4,7 +4,7 @@
 <html lang="zh-CN">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Insert title here</title>
+	<title>缩略语</title>
 	<link rel="stylesheet"
 		href="${pageContext.request.contextPath}/bootstrap3/css/bootstrap.min.css">
 	<link rel="stylesheet"
@@ -15,18 +15,16 @@
 		src="${pageContext.request.contextPath}/bootstrap3/js/bootstrap.min.js"></script>
 </head>
 <body style="padding: 20px">
-	<h1>h1. Bootstrap heading</h1>
-	<h2>h2. Bootstrap heading</h2>
-	<h3>h3. Bootstrap heading</h3>
-	<h4>h4. Bootstrap heading</h4>
-	<h5>h5. Bootstrap heading</h5>
-	<h6>h6. Bootstrap heading</h6>
+	An abbreviation of the word attribute is
+	<abbr title="attribute">attr</abbr>.<br>
+	<!-- 基本缩略语：鼠标对准显示全名。title表示全名 -->
+	<abbr title="HyperText Markup Language">HTML</abbr>
+	is the best thing since sliced bread.<br>
 	
-	<h1>h1. Bootstrap heading <small>Secondary text</small></h1>
-	<h2>h2. Bootstrap heading <small>Secondary text</small></h2>
-	<h3>h3. Bootstrap heading <small>Secondary text</small></h3>
-	<h4>h4. Bootstrap heading <small>Secondary text</small></h4>
-	<h5>h5. Bootstrap heading <small>Secondary text</small></h5>
-	<h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+	<abbr title="HyperText Markup Language" class="initialism">HTML</abbr>
+	is the best thing since sliced bread.<br>
+	<!-- 几个单词的首字母缩写 ，且让 font-size 变得稍微小些。-->
+	<abbr title="HyperText Markup Language">HTML</abbr>
+	is the best thing since sliced bread.
 </body>
 </html>
